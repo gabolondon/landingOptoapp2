@@ -121,13 +121,19 @@ a:active {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
-.font-size-60 {
-  font-size: 60px;
+.font-size-40 {
+  font-size: 4  0px;
   line-height: 1.2;
+  font-family: 'Roboto', sans-serif;
 }
+
+.font-family-h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
 @media (max-width: 575px) {
   .font-size-60 {
     font-size: 40px;
