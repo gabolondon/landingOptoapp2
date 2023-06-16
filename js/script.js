@@ -1,27 +1,5 @@
-// Preloader js
-function subscribe() {
-  const emailInput = document.getElementById("emailInput");
-  const email = emailInput.value;
-  const database = firebase.database();
-  // Verificar que el campo de correo electrónico no esté vacío
-  if (email === "") {
-    alert("Ingrese un correo electrónico válido");
-    return;
-  }
-  database
-    .ref("subscribers/")
-    .set({
-      email: email,
-    })
-    .then(() => {
-      alert("Correo electrónico registrado exitosamente");
-      emailInput.value = ""; // Limpiar el campo de texto después de enviar
-    })
-    .catch((error) => {
-      alert("Ocurrió un error al registrar el correo electrónico");
-      console.log(error);
-    });
-}
+import { subscribe } from "./firebase.js";
+// Initialize Firebase
 $(window).on("load", function () {
   $(".preloader").fadeOut(100);
   $(".hiding-buttons").hide();

@@ -142,21 +142,29 @@
 
 
 
-<section class="bg-orange section">
+<section class="bg-second section">
   <div class="container">
     <div class="row">
       <div class="col-md-6 text-center mb-5 mb-lg-0">
-        <img class="img-fluid" src="images/watch.png" alt="">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UsQcHhomK0o" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        <!-- <img class="img-fluid" src="images/watch.png" alt=""> -->
       </div>
       <div class="col-md-6 align-self-center text-center text-md-left">
         <div class="content">
-          <h2 class="subheading text-white font-weight-bold mb-10">Designed by professional , the benefit for creative gigs</h2>
-          <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum. <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol</p>
+          <h2 class="subheading text-white font-weight-bold mb-10">Cómo vamos a cambiar las reglas del juego?</h2>
+          <p class="text-white">Construímos una herramienta multi-plataforma, que puede digitalizar y conectar los equipos de optometría y oftalmología por medio
+            de tu smartphone o tablet, utilizando acoples y dispositivos de soporte, que junto con los equipos tradicionales podrás obtener imágenes de alta calidad,
+            desde el segmento anterior hasta la retina.
+          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 <section class="section" id="features">
   <div class="container">
     <div class="row">
@@ -445,36 +453,11 @@
 
 <script src="plugins/slick/slick.min.js"></script>
 
-<script src="js/script.js"></script>
+<script type="module" src="js/script.js"></script>
 <!-- <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script> -->
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-analytics.js"; 
-  //import { getDatabase, ref, set} from "https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js";
-  import firebase from "firebase/app";
-  import "firebase/compat/database";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyAXUQISjRU8gFybOg7M-HsmyLfHG7iq4Ms",
-    authDomain: "optoappgl.firebaseapp.com",
-    databaseURL: "https://optoappgl-default-rtdb.firebaseio.com",
-    projectId: "optoappgl",
-    storageBucket: "optoappgl.appspot.com",
-    messagingSenderId: "922150446079",
-    appId: "1:922150446079:web:d57f788958a5580fe77dca",
-    measurementId: "G-Y9ZMJHBF5M"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-  //const database = getDatabase(app);
-  //const database = firebase.database();
+<script type="module" src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"></script>
+<script type="module" src="js/firebase.js">
+  
 
 </script>
 </body>

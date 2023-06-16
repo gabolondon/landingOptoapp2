@@ -93,6 +93,10 @@ a {
   background: #f9a743;
 }
 
+.bg-second {
+  background-color: #996699;
+}
+
 .bg-opacity {
   position: relative;
 }
@@ -125,7 +129,7 @@ a:active {
 }
 
 .font-size-40 {
-  font-size: 4  0px;
+  font-size: 40px;
   line-height: 1.2;
   font-family: 'Roboto', sans-serif;
 }
