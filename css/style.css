@@ -191,6 +191,24 @@ a:active {
   border-radius: 0;
   text-decoration: none !important;
 }
+.hiding-buttons{
+  width: 100%;
+  display: flex;
+  /* justify-content: space-around; */
+}
+.btn-subscribe {
+  margin-left: 10px;
+  flex: 0.2;
+}
+.input-subscribe {
+  border-radius: 30px;
+  font-size: 18px;
+  flex: 0.8;
+  /* width: 100%; */
+  padding: 15px 20px;
+  display: inline-block;
+  box-shadow: 0 15px 40px rgba(48, 182, 97, 0.5);
+}
 
 .btn-main {
   color: #fff;
