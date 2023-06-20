@@ -67,7 +67,7 @@ $(window).on("load", function () {
     $(this).hide();
     $(".hiding-buttons").show();
   });
-  $(".btn-subscribe").on("click", function () {
+  $(".btn-submit").on("click", function () {
     subscribe();
   });
 
