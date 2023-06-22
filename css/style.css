@@ -227,6 +227,9 @@ a:active {
   display: inline-block;
   box-shadow: 0 15px 40px rgba(48, 182, 97, 0.5);
 }
+.hero-background{
+  background-image: "images/heroBackground.png";
+}
 
 .btn-main {
   color: #fff;
