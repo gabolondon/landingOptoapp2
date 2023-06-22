@@ -51,7 +51,12 @@ h2,
 .h2 {
   font-size: 30px;
   line-height: 35px;
-  color: #f9a743;
+}
+
+.h2-icon{
+  font-size: 60px;
+    line-height: 35px;
+    color: #f9a743;
 }
 
 h3,
@@ -228,7 +233,36 @@ a:active {
   box-shadow: 0 15px 40px rgba(48, 182, 97, 0.5);
 }
 .hero-background{
-  background-image: "images/heroBackground.png";
+  background-image: url("../images/heroBackground.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+}
+
+#features-img-left{
+  width: 2000px;
+  height: 100%;
+  border-radius: 190px;
+  /* padding-right: 10px; */
+  position: absolute;
+  right: 10px;
+  z-index: -1;
+  background-color: #AFAFAF;
+}
+#features-img-right {
+  width: 2000px;
+  height: 100%;
+  border-radius: 190px;
+  /* padding-right: 10px; */
+  position: absolute;
+  left: 10px;
+  z-index: -1;
+
+}
+
+.video-hero{
+  border-radius: 15px;
 }
 
 .btn-main {
