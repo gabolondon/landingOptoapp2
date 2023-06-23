@@ -282,7 +282,10 @@
     <div class="row mb-40">
       <div class="col-md-6 text-center mb-5 mb-lg-0 ">
         <div id="features-img-left" class="bg-orange"></div>
-        <img class="img-fluid" src="images/SOLAMP.png" alt="">
+        <!-- <img class="img-fluid" src="images/SOLAMP.png" alt=""> -->
+        <model-viewer alt="3D image" src="images/SOLAMP.glb" ar
+          ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="2" camera-controls
+          auto-rotate></model-viewer>
       </div>
       <div class="col-md-6 align-self-center text-center text-md-left">
         <div class="content">
@@ -446,10 +449,8 @@
 <script type="module" src="js/script.js"></script>
 <!-- <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script> -->
 <script type="module" src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"></script>
-<script type="module" src="js/firebase.js">
-  
-
-</script>
+<script type="module" src="js/firebase.js"></script>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </body>
 </html>
 <footer>
